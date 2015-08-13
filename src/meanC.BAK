@@ -1,6 +1,6 @@
 #include <Rcpp.h>
 using namespace Rcpp;
-//' @export
+
 // [[Rcpp::export]]
 double meanC(NumericVector x) {
   int n = x.size();
